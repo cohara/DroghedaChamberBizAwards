@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Irish Maritime Festival</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.4.0.min.css">
+
+<link rel="stylesheet"  href="css/design.css">
+
+<script src="js/jquery.js"></script>
+
+	<script src="js/jquery.mobile-1.4.0.min.js"></script>
+	
+	
+    <script>
+
+function initialize() {
+  var mapOptions = {
+    zoom: 16,
+    center: new google.maps.LatLng(53.690393,-6.242297)
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+	  
+	    var marker = new google.maps.Marker({
+      position:  new google.maps.LatLng(53.690393,-6.242297),
+      map: map,
+      title: 'The Cottages'
+  });
+
+}
+
+$(document).on("pageinit", function(event) { initialize(); });
+
+    </script>
+
+<script src="js/script.js"></script> <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+</head>
+
+<body>
+
+<div data-role="page">
+
+<!-- Header end -->
+	
+	<div  data-id="dojoheader" data-role="header" data-theme="b" class="ui-header ui-bar-a" style="background-color:#3300CC" data-position="fixed">
+	<div class="bannerbox" style="background-color:#3f8de0; height:109px">
+            <img id="logo" style="float:right;height:109px" src="LogoFestival.png">
+         </div>
+		 
+         <h1 class="ui-title">The Cottages</h1>
+		
+		 <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+		 
+		<a data-icon="home" data-iconpos="notext" data-direction="reverse" href="index.html">Home</a> 
+		 
+      </div>
+	
+	<div role="main" class="ui-content">
+	
+         
+
+<ul data-role="listview" data-inset="true">
+<li><a href="BB_Nearby.html">Back</a></li>
+
+</ul>
+
+	<p> <h3>The Cottages</h3> </p>
+	
+	<p> <h2> <img src="HotelPics/BB13_Pic01_TheCottages.jpg" width="205px" height="135px"/> </h2> </p>
+	
+	<p> Seabank, Bettystown , Co Meath</p>
+	<p> Tel: 041 982 8104  </p>     
+	Email: <a href="mailto:info@cottages-ireland.com">info@cottages-ireland.com</a></p>
+	<p><a href= "http://www.cottages-ireland.com">www.cottages-ireland.com</a> </p>
+		
+	<br>
+	<p>Come and explore the mysterious and ancient beauty of the Boyne Valley. Stretch your limbs and ease your mind on miles of sandy beach. </p>
+	<p>Six exclusive 300 year old thatched holiday cottages nestle on the beach front on Ireland’s East Coast. The Cottages Ireland offer luxury holiday accommodation in the peaceful, tranquil surroundings of large organic flower gardens. With easy access to Drogheda and the Boyne Valley and Dublin City </p>
+	<p>Superbly located for a dream holiday in Ireland whether for Golf, Fishing, Walking, Heritage or just to relax, this is the ideal get away location or extended holiday. </p>
+	<p>The Cottages can be enjoyed by families, couples, honeymooners – anyone who wants a break from the hustle and bustle of modern day living, experience an idyllic haven of peace in this private gated hamlet-like setting. </p>
+    <br>
+	
+	<div id="map-canvas"></div>
+	
+	</div>
+	  
+	  <div data-role="panel" id="left-panel">
+        <div class="panelhtml"></div>
+    </div><!-- /panel -->
+	
+</div>
+
+</div>
+	<div data-role="footer">
+</div>
+
+</body>
+</html>
