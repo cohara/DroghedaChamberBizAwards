@@ -2,22 +2,22 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.conoroh.maritime"
+    id          = "com.conoroh.drogchamber"
     version     = "1.4.2"
     versionCode = "18" >
     
     <!-- versionCode is optional and Android only -->
     
-    <preference name="phonegap-version" value="3.7.0" />
+    <preference name='phonegap-version' value='cli-6.5.0' />
     
-    <name>Irish Maritime Festival 2015 Drogheda</name>
+    <name>Drogheda Chamber Business Awards 2018</name>
     
     <description>
-        A complete guide to The Irish Maritime Festival 2015 Drogheda by Conor O'Hara.
+        A complete guide to The Drogheda Chamber Business Awards 2018 by Conor O'Hara.
     </description>
     
     <author href="http://conoroh.com" email="conor.h.ohara@gmail.com">
-        Conor O'Hara'
+        Conor O'Hara
     </author>
     <access origin="*"/>
     <gap:plugin name="org.apache.cordova.splashscreen" />

@@ -2,12 +2,11 @@ $( document ).on( "pageinit", function( event ) {
 	var panel_html = ''+
 '<ul data-role="listview" data-inset="true">'+
     '<li><a href="index.html"> <img src="icons/home.png"/> Home</a></li>'+
-	'<li><a href="Intro.html"> <img src="boat2015.jpg"/> Welcome</a></li>'+
-	'<li><a href="about.html"> <img src="icons/about.png"/> About</a></li>'+
-'<li><a href="events.html"> <img src="icons/anchor.png"/> Programme</a></li>'+
+	'<li><a href="welcome.html"> <img src="Chamber_400x400.jpg"/> Welcome</a></li>'+
+	'<li><a href="sponsors.html"> <img src="icons/Sponsor.png"/> Sponsors</a></li>'+
+'<li><a href="categories.html"> <img src="icons/categories.png"/> Categories</a></li>'+
 
-	'<li><a href="attractions.html"> <img src="icons/attractions.png"/> Tourist Attractions</a></li>'+
-	'<li><a href="Accommodation.html"> <img src="icons/hotel.png"/> Accommodation</a></li>'+
+	'<li><a href="awards.html"> <img src="icons/award.png"/> Awards Night</a></li>'+
 	'<li><a href="contact.html"> <img src="icons/contact.png"/> Contact</a></li>'+
 
 
