@@ -20,10 +20,10 @@
         Conor O'Hara
     </author>
     <access origin="*"/>
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.geolocation" />
-    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <gap:plugin name="org-apache-cordova-splashscreen" />
+    <gap:plugin name="org-apache-cordova-camera" />
+    <gap:plugin name="org-apache-cordova-geolocation" />
+    <gap:plugin name="com-phonegap-plugin-statusbar" />
 
 
     <preference name="fullscreen" value="false"/>
