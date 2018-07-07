@@ -21,9 +21,9 @@
     </author>
     <access origin="*"/>
     <gap:plugin name="org.apache.cordova.splashscreen" source="npm" />
-    <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.geolocation" />
-    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <gap:plugin name="org.apache.cordova.camera" source="npm" />
+    <gap:plugin name="org.apache.cordova.geolocation" source="npm" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" source="npm" />
 
 
     <preference name="fullscreen" value="false"/>
